@@ -1,0 +1,22 @@
+{
+  "name": "padraonodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianojunnior17/PadraoNodeJS.git"
+  },
+  "author": "Luciano Lima By Celke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianojunnior17/PadraoNodeJS/issues"
+  },
+  "homepage": "https://github.com/lucianojunnior17/PadraoNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
