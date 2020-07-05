@@ -1,11 +1,13 @@
-const express = require('express');
+const express =require('express');
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Introdução a API");
+app.use(express.json())
+
+app.get("/",(req, res) => {
+    return res.json({titulo: "Como criar API "})
 });
 
 app.listen(3000, () => {
-    console.log("SERVIDOR INICIADO COM SUCESSO");
-});
+    console.log("servidor iniciado na porta 3000");
+})
